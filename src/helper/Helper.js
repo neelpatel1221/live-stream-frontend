@@ -1,0 +1,1 @@
+export const serverUrl = "https://live-stream-backend-z6uk.onrender.com";
