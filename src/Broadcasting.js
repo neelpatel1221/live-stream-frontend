@@ -34,7 +34,7 @@ const Broadcasting = () => {
       const peer = createPeer();
       stream.getTracks().forEach((track) => peer.addTrack(track, stream));
       videoElement.srcObject = stream;
-      const streamLink = `${serverUrl}/view-stream`;
+      const streamLink = `${window.location.host}/view-stream`;
       setStreamUrl(streamLink);
       setIsStreaming(true);
 
